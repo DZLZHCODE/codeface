@@ -1,15 +1,20 @@
-<img src="images/codeface-HR-new.png" alt="Codeface | Typefaces for source code beautification" width="790">
+<img src="images/non-gallery/codeface-HR-new.png" alt="Codeface | Typefaces for source code beautification" width="790">
 
 
-## Typefaces for Source Code Beautification [![Awesome](https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667)](https://github.com/sindresorhus/awesome)
+## Typefaces for Source Code Beautification [![Contributors](https://img.shields.io/badge/contributors-22-orange.svg?style=flat)] (https://github.com/chrissimpkins/codeface/blob/master/CONTRIBUTORS.md) [![Awesome](https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667)](https://github.com/sindresorhus/awesome)
 
 * [About](ABOUT.md)
 * [Main Font Gallery](#the-gallery)
-* [Free, Non-Distrib EULA Font Gallery](NONDISTRIB.md)
+* [Bitmap Font Gallery](BITMAP.md)
+* [Chinese, Japanese, Korean Developer Font Gallery](CJK.md)
+* [Free, Non-Distrib EULA Developer Font Gallery](NONDISTRIB.md)
 * [Contribute to the Project](CONTRIBUTING.md)
 * [Contributor List](CONTRIBUTORS.md)
 * [License](LICENSE.md)
 
+## New!
+
+Each typeface directory in the repository now includes a vertical metrics table (`vertical_metrics.txt`).  Combine the data in these reference tables with the new [`font-line` tool](https://github.com/source-foundry/font-line) to modify any font to the line spacing that suits your needs.  Tighten up or keep it loose.
 
 ## Fun Little Rant About Font Customization
 
@@ -19,690 +24,722 @@
 [Link](https://www.reddit.com/r/programming/comments/39wz4l/hey_reddit_developers_what_is_your_favorite_text/cs86fnu)
 
 
-## Download Font ZIP Archive
+## Download Font Archive
 
-<a href="https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.zip"><img src="images/download-button-new.png" style="margin-left: 100px" alt="Download All Fonts" width="125"></a>
+<a href="https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.zip"><img src="images/non-gallery/download-button.png" style="margin-left: 100px" alt="Download All Fonts" width="125"></a>
 
-All font binaries in the Codeface collection (30.3MB ZIP archive)
+Click a link below to download all font binaries in the Codeface main and bitmap gallery collections:
 
+| Archive  | SHA1  | Size |
+| :------------: |:---------------:| :-----:|
+| [codeface-fonts.zip](https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.zip) | `4709e7b6f63d1e2c31f7af0d56b7e1f75a846476` | 31.4 MB |
+| [codeface-fonts.tar.xz](https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.tar.xz) | `e4416c72e331d71e55fd56f2fba38cfda7672f85` | 16.5 MB |
+
+or use one of the following commands to pull a font archive with `curl`:
+
+```
+$ curl -OL https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.zip
+```
+
+```
+$ curl -OL https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.tar.xz
+```
 
 ## The Gallery
+
+### [agave](fonts/agave)
+
+[ [License](fonts/agave/license.txt) ]
+
+<img src="images/gallery/agave-STP.png" width="725">
+<img src="images/gallery/agave-STPC.png" width="725">
+<img src="images/gallery/agave-dark.png" width="725">
+<img src="images/gallery/agave-light.png" width="725">
+
 
 
 ### [Anonymous Pro](fonts/anonymous-pro)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/anonymous-pro/license.txt) ]
+[ [License](fonts/anonymous-pro/license.txt) ]
 
-![Anonymous Pro](images/anonymous-pro-TP.png)
-![Anonymous Pro](images/anonymous-pro-TPC.png)
-![Anonymous Pro](images/anonymous-pro.png)
+<img src="images/gallery/anonymous-pro-STP.png" width="725">
+<img src="images/gallery/anonymous-pro-STPC.png" width="725">
+<img src="images/gallery/anonymous-pro-dark.png" width="725">
+<img src="images/gallery/anonymous-pro-light.png" width="725">
+
 
 
 ### [Aurulent Sans Mono](fonts/aurulent-sans-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/aurulent-sans-mono/source.txt) ]
+[ [License](fonts/aurulent-sans-mono/license.txt) ]
 
-![Aurulent Sans Mono](images/aurulent-sans-mono-TP.png)
-![Aurulent Sans Mono](images/aurulent-sans-mono-TPC.png)
-![Aurulent Sans Mono](images/aurulent-sans-mono.png)
+<img src="images/gallery/aurulent-sans-mono-STP.png" width="725">
+<img src="images/gallery/aurulent-sans-mono-STPC.png" width="725">
+<img src="images/gallery/aurulent-sans-mono-dark.png" width="725">
+<img src="images/gallery/aurulent-sans-mono-light.png" width="725">
 
 
-### [Average Mono](fonts/average-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/average-mono/license.txt) ]
+### [AverageMono](fonts/average-mono)
 
-![Average Mono](images/average-mono-TP.png)
-![Average Mono](images/average-mono-TPC.png)
-![Average Mono](images/average-mono.png)
+[ [License](fonts/average-mono/license.txt) ]
+
+<img src="images/gallery/average-mono-STP.png" width="725">
+<img src="images/gallery/average-mono-STPC.png" width="725">
+<img src="images/gallery/average-mono-dark.png" width="725">
+<img src="images/gallery/average-mono-light.png" width="725">
+
 
 
 ### [Bitstream Vera Sans Mono](fonts/bitstream-vera-sans-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/bitstream-vera-sans-mono/COPYRIGHT.TXT) ]
+[ [License](fonts/bitstream-vera-sans-mono/license.txt) ]
 
-![Bitstream Vera Sans Mono](images/bitstreamverasansmono-TP.png)
-![Bitstream Vera Sans Mono](images/bitstreamverasansmono-TPC.png)
-![Bitstream Vera Sans Mono](images/bitstreamverasansmono.png)
+<img src="images/gallery/bitstream-vera-sans-mono-STP.png" width="725">
+<img src="images/gallery/bitstream-vera-sans-mono-STPC.png" width="725">
+<img src="images/gallery/bitstream-vera-sans-mono-dark.png" width="725">
+<img src="images/gallery/bitstream-vera-sans-mono-light.png" width="725">
 
 
-### [BP Mono](fonts/bp-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/bp-mono/Creative%20Commons%20Attribution-No%20Derivative%20Works.txt) ]
+### [BPmono](fonts/bp-mono)
 
-![BP Mono](images/bp-mono-TP.png)
-![BP Mono](images/bp-mono-TPC.png)
-![BP Mono](images/bp-mono.png)
+[ [License](fonts/bp-mono/license.txt) ]
+
+<img src="images/gallery/bp-mono-STP.png" width="725">
+<img src="images/gallery/bp-mono-STPC.png" width="725">
+<img src="images/gallery/bp-mono-dark.png" width="725">
+<img src="images/gallery/bp-mono-light.png" width="725">
+
 
 
 ### [Bront](fonts/bront)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/bront/LICENSE.txt) ]
+[ [License](fonts/bront/license.txt) ]
 
-![Bront](images/bront-TP.png)
-![Bront](images/bront-TPC.png)
-![Bront](images/bront.png)
-
-
-### [Camingo Code](fonts/camingo-code)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/camingo-code/license.txt) ]
-
-![Camingo Code](images/camingo-code-TP.png)
-![Camingo Code](images/camingo-code-TPC.png)
-![Camingo Code](images/camingo-code.png)
+<img src="images/gallery/bront-STP.png" width="725">
+<img src="images/gallery/bront-STPC.png" width="725">
+<img src="images/gallery/bront-dark.png" width="725">
+<img src="images/gallery/bront-light.png" width="725">
 
 
-### [CMU Typewriter](fonts/cmu-typewriter)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/cmu-typewriter/license.txt) ]
+### [CamingoCode](fonts/camingo-code)
 
-![CMU Typewriter](images/cmu-typewriter-TP.png)
-![CMU Typewriter](images/cmu-typewriter-TPC.png)
-![CMU Typewriter](images/cmu-typewriter.png)
+[ [License](fonts/camingo-code/license.txt) ]
 
-
-### [Code New Roman](fonts/code-new-roman)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/code-new-roman/cnr-note.txt) ]
-
-![Code New Roman](images/code-new-roman-TP.png)
-![Code New Roman](images/code-new-roman-TPC.png)
-![Code New Roman](images/code-new-roman.png)
+<img src="images/gallery/camingo-code-STP.png" width="725">
+<img src="images/gallery/camingo-code-STPC.png" width="725">
+<img src="images/gallery/camingo-code-dark.png" width="725">
+<img src="images/gallery/camingo-code-light.png" width="725">
 
 
-### [Coding Font Tobi](fonts/coding-font-tobi)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/coding-font-tobi/Licence.txt) ]
+### [CMU Typewriter Text](fonts/cmu-typewriter)
 
-![Coding Font Tobi](images/coding-font-tobi-noaa-TP.png)
-![Coding Font Tobi](images/coding-font-tobi-noaa-TPC.png)
-![Coding Font Tobi](images/coding-font-tobi-noaa.png)
+[ [License](fonts/cmu-typewriter/license.txt) ]
+
+<img src="images/gallery/cmu-typewriter-STP.png" width="725">
+<img src="images/gallery/cmu-typewriter-STPC.png" width="725">
+<img src="images/gallery/cmu-typewriter-dark.png" width="725">
+<img src="images/gallery/cmu-typewriter-light.png" width="725">
 
 
-### [Consola Mono](fonts/consola-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/consola-mono/SIL%20-%20Open%20Font%20License.txt) ]
+### [Courier Prime Code](fonts/courierprime-code)
 
-![Consola Mono](images/consola-mono-TP.png)
-![Consola Mono](images/consola-mono-TPC.png)
-![Consola Mono](images/consola-mono.png)
+[ [License](fonts/courierprime-code/license.txt) ]
+
+<img src="images/gallery/courierprime-code-STP.png" width="725">
+<img src="images/gallery/courierprime-code-STPC.png" width="725">
+<img src="images/gallery/courierprime-code-dark.png" width="725">
+<img src="images/gallery/courierprime-code-light.png" width="725">
+
 
 
 ### [Cousine](fonts/cousine)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/cousine/license.txt) ]
+[ [License](fonts/cousine/license.txt) ]
 
-![Cousine](images/cousine-TP.png)
-![Cousine](images/cousine-TPC.png)
-![Cousine](images/cousine.png)
-
-
-### [CP Mono](fonts/cp-mono)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/cp-mono/CC_License.txt) ]
-
-![CP Mono](images/cp-mono-TP.png)
-![CP Mono](images/cp-mono-TPC.png)
-![CP Mono](images/cp-mono.png)
+<img src="images/gallery/cousine-STP.png" width="725">
+<img src="images/gallery/cousine-STPC.png" width="725">
+<img src="images/gallery/cousine-dark.png" width="725">
+<img src="images/gallery/cousine-light.png" width="725">
 
 
-### [Crisp](fonts/crisp)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/crisp/license.txt) ]
+### [CPMono_v07](fonts/cp-mono)
 
-![Crisp](images/crisp-TP.png)
-![Crisp](images/crisp-TPC.png)
-![Crisp](images/crisp.png)
+[ [License](fonts/cp-mono/license.txt) ]
+
+<img src="images/gallery/cp-mono-STP.png" width="725">
+<img src="images/gallery/cp-mono-STPC.png" width="725">
+<img src="images/gallery/cp-mono-dark.png" width="725">
+<img src="images/gallery/cp-mono-light.png" width="725">
+
 
 
 ### [Cutive Mono](fonts/cutive-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/cutive-mono/OFL.txt) ]
+[ [License](fonts/cutive-mono/license.txt) ]
 
-![Cutive Mono](images/cutive-mono-TP.png)
-![Cutive Mono](images/cutive-mono-TPC.png)
-![Cutive Mono](images/cutive-mono.png)
+<img src="images/gallery/cutive-mono-STP.png" width="725">
+<img src="images/gallery/cutive-mono-STPC.png" width="725">
+<img src="images/gallery/cutive-mono-dark.png" width="725">
+<img src="images/gallery/cutive-mono-light.png" width="725">
 
-
-### [Dejavu Sans Mono](fonts/dejavu-sans-mono)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/dejavu-sans-mono/license.txt) ]
-
-![Dejavu Sans Mono](images/dejavu-sans-mono-TP.png)
-![Dejavu Sans Mono](images/dejavu-sans-mono-TPC.png)
-![Dejavu Sans Mono](images/dejavu-sans-mono.png)
-
-
-### [Dina](fonts/dina)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/dina/LICENSE) ]
-
-![Dina](images/dina-TP.png)
-![Dina](images/dina-TPC.png)
-![Dina](images/dina.png)
 
 
 ### [Droid Sans Mono](fonts/droid-sans-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/droid-sans-mono/license.txt) ]
+[ [License](fonts/droid-sans-mono/license.txt) ]
 
-![Droid Sans Mono](images/droid-sans-mono-TP.png)
-![Droid Sans Mono](images/droid-sans-mono-TPC.png)
-![Droid Sans Mono](images/droid-sans-mono.png)
+<img src="images/gallery/droid-sans-mono-STP.png" width="725">
+<img src="images/gallery/droid-sans-mono-STPC.png" width="725">
+<img src="images/gallery/droid-sans-mono-dark.png" width="725">
+<img src="images/gallery/droid-sans-mono-light.png" width="725">
+
 
 
 ### [Edlo](fonts/edlo)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/edlo/license.txt) ]
+[ [License](fonts/edlo/license.txt) ]
 
-![Edlo](images/edlo-TP.png)
-![Edlo](images/edlo-TPC.png)
-![Edlo](images/edlo.png)
+<img src="images/gallery/edlo-STP.png" width="725">
+<img src="images/gallery/edlo-STPC.png" width="725">
+<img src="images/gallery/edlo-dark.png" width="725">
+<img src="images/gallery/edlo-light.png" width="725">
+
 
 
 ### [Fantasque Sans Mono](fonts/fantasque-sans-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/fantasque-sans-mono/OFL.txt) ]
+[ [License](fonts/fantasque-sans-mono/license.txt) ]
 
-![Fantasque Sans Mono](images/fantasque-sans-mono-TP.png)
-![Fantasque Sans Mono](images/fantasque-sans-mono-TPC.png)
-![Fantasque Sans Mono](images/fantasque-sans-mono.png)
+<img src="images/gallery/fantasque-sans-mono-STP.png" width="725">
+<img src="images/gallery/fantasque-sans-mono-STPC.png" width="725">
+<img src="images/gallery/fantasque-sans-mono-dark.png" width="725">
+<img src="images/gallery/fantasque-sans-mono-light.png" width="725">
+
+
+
+### [Fira Code](fonts/fira-code)
+
+[ [License](fonts/fira-code/license.txt) ]
+
+<img src="images/gallery/fira-code-STP.png" width="725">
+<img src="images/gallery/fira-code-STPC.png" width="725">
+<img src="images/gallery/fira-code-dark.png" width="725">
+<img src="images/gallery/fira-code-light.png" width="725">
+
 
 
 ### [Fira Mono](fonts/fira-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/fira-mono/SIL%20Open%20Font%20License.txt) ]
+[ [License](fonts/fira-mono/license.txt) ]
 
-![Fira Mono](images/fira-mono-TP.png)
-![Fira Mono](images/fira-mono-TPC.png)
-![Fira Mono](images/fira-mono.png)
-
-
-### [Fixedsys Excelsior](fonts/fixed-sys-excelsior)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/fixed-sys-excelsior/license.txt) ]
-
-![Fixedsys Excelsior](images/fixed-sys-excelsior-TP.png)
-![Fixedsys Excelsior](images/fixed-sys-excelsior-TPC.png)
-![Fixedsys Excelsior](images/fixed-sys-excelsior.png)
+<img src="images/gallery/fira-mono-STP.png" width="725">
+<img src="images/gallery/fira-mono-STPC.png" width="725">
+<img src="images/gallery/fira-mono-dark.png" width="725">
+<img src="images/gallery/fira-mono-light.png" width="725">
 
 
-### [Free Mono](fonts/free-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/free-mono/license.txt) ]
+### [FreeMono](fonts/free-mono)
 
-![Free Mono](images/free-mono-TP.png)
-![Free Mono](images/free-mono-TPC.png)
-![Free Mono](images/free-mono.png)
+[ [License](fonts/free-mono/license.txt) ]
+
+<img src="images/gallery/free-mono-STP.png" width="725">
+<img src="images/gallery/free-mono-STPC.png" width="725">
+<img src="images/gallery/free-mono-dark.png" width="725">
+<img src="images/gallery/free-mono-light.png" width="725">
 
 
-### [Gohufont](fonts/gohufont)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/gohufont/license.txt) ]
+### [Generic Mono II](fonts/generic)
 
-![Gohufont](images/gohufont-TP.png)
-![Gohufont](images/gohufont-TPC.png)
-![Gohufont](images/gohufont.png)
+[ [License](fonts/generic/license.txt) ]
+
+<img src="images/gallery/generic-STP.png" width="725">
+<img src="images/gallery/generic-STPC.png" width="725">
+<img src="images/gallery/generic-dark.png" width="725">
+<img src="images/gallery/generic-light.png" width="725">
+
 
 
 ### [Hack](fonts/hack)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/hack/license.txt) ]
+[ [License](fonts/hack/license.txt) ]
 
-![Hack](images/hack-TP.png)
-![Hack](images/hack-TPC.png)
-![Hack](images/hack.png)
+<img src="images/gallery/hack-STP.png" width="725">
+<img src="images/gallery/hack-STPC.png" width="725">
+<img src="images/gallery/hack-dark.png" width="725">
+<img src="images/gallery/hack-light.png" width="725">
+
 
 
 ### [Hasklig](fonts/hasklig)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/hasklig/License.txt) ]
+[ [License](fonts/hasklig/license.txt) ]
 
-![Hasklig](images/hasklig-TP.png)
-![Hasklig](images/hasklig-TPC.png)
-![Hasklig](images/hasklig.png)
+<img src="images/gallery/hasklig-STP.png" width="725">
+<img src="images/gallery/hasklig-STPC.png" width="725">
+<img src="images/gallery/hasklig-dark.png" width="725">
+<img src="images/gallery/hasklig-light.png" width="725">
+
 
 
 ### [Hermit](fonts/hermit)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/hermit/license.txt) ]
+[ [License](fonts/hermit/license.txt) ]
 
-![Hermit](images/hermit-TP.png)
-![Hermit](images/hermit-TPC.png)
-![Hermit](images/hermit.png)
+<img src="images/gallery/hermit-STP.png" width="725">
+<img src="images/gallery/hermit-STPC.png" width="725">
+<img src="images/gallery/hermit-dark.png" width="725">
+<img src="images/gallery/hermit-light.png" width="725">
+
 
 
 ### [Inconsolata](fonts/inconsolata)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/inconsolata/license.txt) ]
+[ [License](fonts/inconsolata/license.txt) ]
 
-![Inconsolata](images/inconsolata-TP.png)
-![Inconsolata](images/inconsolata-TPC.png)
-![Inconsolata](images/inconsolata.png)
+<img src="images/gallery/inconsolata-STP.png" width="725">
+<img src="images/gallery/inconsolata-STPC.png" width="725">
+<img src="images/gallery/inconsolata-dark.png" width="725">
+<img src="images/gallery/inconsolata-light.png" width="725">
 
-
-### [Inconsolata-dz](fonts/inconsolata-dz)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/inconsolata-dz/license.txt) ]
-
-![Inconsolata-dz](images/inconsolata-dz-TP.png)
-![Inconsolata-dz](images/inconsolata-dz-TPC.png)
-![Inconsolata-dz](images/inconsolata-dz.png)
-
-
-### [Inconsolata-g](fonts/inconsolata-g)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/inconsolata-g/license.txt) ]
-
-![Inconsolata-g](images/inconsolata-g-TP.png)
-![Inconsolata-g](images/inconsolata-g-TPC.png)
-![Inconsolata-g](images/inconsolata-g.png)
-
-
-### [Inconsolata LGC](fonts/inconsolata-lgc)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/inconsolata-lgc/license.txt) ]
-
-![Inconsolata LGC](images/inconsolata-lgc-TP.png)
-![Inconsolata LGC](images/inconsolata-lgc-TPC.png)
-![Inconsolata LGC](images/inconsolata-lgc.png)
 
 
 ### [Iosevka](fonts/iosevka)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/iosevka/license.txt) ]
+[ [License](fonts/iosevka/license.txt) ]
 
-![Iosevka](images/iosevka-TP.png)
-![Iosevka](images/iosevka-TPC.png)
-![Iosevka](images/iosevka.png)
+<img src="images/gallery/iosevka-STP.png" width="725">
+<img src="images/gallery/iosevka-STPC.png" width="725">
+<img src="images/gallery/iosevka-dark.png" width="725">
+<img src="images/gallery/iosevka-light.png" width="725">
 
 
-### [Latin Modern Mono Light](fonts/latin-modern-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/latin-modern-mono/license.txt) ]
+### [Iosevka Slab](fonts/iosevka-slab)
 
-![Latin Modern Mono Light](images/latin-modern-mono-TP.png)
-![Latin Modern Mono Light](images/latin-modern-mono-TPC.png)
-![Latin Modern Mono Light](images/latin-modern-mono.png)
+[ [License](fonts/iosevka-slab/license.txt) ]
+
+<img src="images/gallery/iosevka-slab-STP.png" width="725">
+<img src="images/gallery/iosevka-slab-STPC.png" width="725">
+<img src="images/gallery/iosevka-slab-dark.png" width="725">
+<img src="images/gallery/iosevka-slab-light.png" width="725">
+
+
+
+### [Kawkab Mono](fonts/kawkab-mono)
+
+[ [License](fonts/kawkab-mono/license.txt) ]
+
+<img src="images/gallery/kawkab-mono-STP.png" width="725">
+<img src="images/gallery/kawkab-mono-STPC.png" width="725">
+<img src="images/gallery/kawkab-mono-dark.png" width="725">
+<img src="images/gallery/kawkab-mono-light.png" width="725">
+
 
 
 ### [Lekton](fonts/lekton)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/lekton/SIL%20Open%20Font%20License.txt) ]
+[ [License](fonts/lekton/license.txt) ]
 
-![Lekton](images/lekton-TP.png)
-![Lekton](images/lekton-TPC.png)
-![Lekton](images/lekton.png)
+<img src="images/gallery/lekton-STP.png" width="725">
+<img src="images/gallery/lekton-STPC.png" width="725">
+<img src="images/gallery/lekton-dark.png" width="725">
+<img src="images/gallery/lekton-light.png" width="725">
+
 
 
 ### [Liberation Mono](fonts/liberation-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/liberation-mono/License.txt) ]
+[ [License](fonts/liberation-mono/license.txt) ]
 
-![Liberation Mono](images/liberation-mono-TP.png)
-![Liberation Mono](images/liberation-mono-TPC.png)
-![Liberation Mono](images/liberation-mono.png)
+<img src="images/gallery/liberation-mono-STP.png" width="725">
+<img src="images/gallery/liberation-mono-STPC.png" width="725">
+<img src="images/gallery/liberation-mono-dark.png" width="725">
+<img src="images/gallery/liberation-mono-light.png" width="725">
+
 
 
 ### [Linux Libertine Mono](fonts/linux-libertine-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/linux-libertine-mono/license.txt) ]
+[ [License](fonts/linux-libertine-mono/license.txt) ]
 
-![Linux Libertine Mono](images/linux-libertine-mono-TP.png)
-![Linux Libertine Mono](images/linux-libertine-mono-TPC.png)
-![Linux Libertine Mono](images/linux-libertine-mono.png)
+<img src="images/gallery/linux-libertine-mono-STP.png" width="725">
+<img src="images/gallery/linux-libertine-mono-STPC.png" width="725">
+<img src="images/gallery/linux-libertine-mono-dark.png" width="725">
+<img src="images/gallery/linux-libertine-mono-light.png" width="725">
+
 
 
 ### [Luculent](fonts/luculent)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/luculent/license.txt) ]
+[ [License](fonts/luculent/license.txt) ]
 
-![Luculent](images/luculent-TP.png)
-![Luculent](images/luculent-TPC.png)
-![Luculent](images/luculent.png)
+<img src="images/gallery/luculent-STP.png" width="725">
+<img src="images/gallery/luculent-STPC.png" width="725">
+<img src="images/gallery/luculent-dark.png" width="725">
+<img src="images/gallery/luculent-light.png" width="725">
+
 
 
 ### [Luxi Mono](fonts/luxi-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/luxi-mono/Bigelow%20%26%20Holmes%20-%20Luxi%20License.txt) ]
+[ [License](fonts/luxi-mono/license.txt) ]
 
-![Luxi Mono](images/luxi-mono-TP.png)
-![Luxi Mono](images/luxi-mono-TPC.png)
-![Luxi Mono](images/luxi-mono.png)
+<img src="images/gallery/luxi-mono-STP.png" width="725">
+<img src="images/gallery/luxi-mono-STPC.png" width="725">
+<img src="images/gallery/luxi-mono-dark.png" width="725">
+<img src="images/gallery/luxi-mono-light.png" width="725">
 
-
-### [M+ 1m](fonts/mplus1m)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/mplus1m/M%2B%20Fonts%20License.txt) ]
-
-![M+ 1m](images/mplus1m-TP.png)
-![M+ 1m](images/mplus1m-TPC.png)
-![M+ 1m](images/mplus1m.png)
-
-
-### [M+ 1mn](fonts/mplus1mn)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/mplus1mn/M%2B%20Fonts%20License.txt) ]
-
-![M+ 1m](images/mplus1mn-TP.png)
-![M+ 1m](images/mplus1mn-TPC.png)
-![M+ 1m](images/mplus1mn.png)
-
-
-### [M+ 2m](fonts/mplus2m)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/mplus2m/LICENSE_E.txt) ]
-
-![M+ 2m](images/mplus2m-TP.png)
-![M+ 2m](images/mplus2m-TPC.png)
-![M+ 2m](images/mplus2m.png)
 
 
 ### [Mensch](fonts/mensch)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/mensch/License.txt) ]
+[ [License](fonts/mensch/license.txt) ]
 
-![Mensch](images/mensch-TP.png)
-![Mensch](images/mensch-TPC.png)
-![Mensch](images/mensch.png)
+<img src="images/gallery/mensch-STP.png" width="725">
+<img src="images/gallery/mensch-STPC.png" width="725">
+<img src="images/gallery/mensch-dark.png" width="725">
+<img src="images/gallery/mensch-light.png" width="725">
 
 
-### [Meslo](fonts/meslo)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/meslo/license.txt) ]
+### [Meslo LG M DZ](fonts/meslo)
 
-![Meslo](images/meslo-TP.png)
-![Meslo](images/meslo-TPC.png)
-![Meslo](images/meslo.png)
+[ [License](fonts/meslo/license.txt) ]
+
+<img src="images/gallery/meslo-STP.png" width="725">
+<img src="images/gallery/meslo-STPC.png" width="725">
+<img src="images/gallery/meslo-dark.png" width="725">
+<img src="images/gallery/meslo-light.png" width="725">
+
 
 
 ### [Metrickal](fonts/metrickal)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/metrickal/License.txt) ]
+[ [License](fonts/metrickal/license.txt) ]
 
-![Metrickal](images/metrickal-TP.png)
-![Metrickal](images/metrickal-TPC.png)
-![Metrickal](images/metrickal.png)
+<img src="images/gallery/metrickal-STP.png" width="725">
+<img src="images/gallery/metrickal-STPC.png" width="725">
+<img src="images/gallery/metrickal-dark.png" width="725">
+<img src="images/gallery/metrickal-light.png" width="725">
 
-
-### [Monofur](fonts/monofur)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/monofur/monof_tt.txt) ]
-
-![Monofur](images/monofur-TP.png)
-![Monofur](images/monofur-TPC.png)
-![Monofur](images/monofur.png)
-
-
-### [Monoid](fonts/monoid)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/monoid/license.txt) ]
-
-![Monoid](images/monoid-TP.png)
-![Monoid](images/monoid-TPC.png)
-![Monoid](images/monoid.png)
 
 
 ### [monoOne](fonts/mono-one)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/mono-one/license.txt) ]
+[ [License](fonts/mono-one/license.txt) ]
 
-![monoOne](images/mono-one-TP.png)
-![monoOne](images/mono-one-TPC.png)
-![monoOne](images/mono-one.png)
+<img src="images/gallery/mono-one-STP.png" width="725">
+<img src="images/gallery/mono-one-STPC.png" width="725">
+<img src="images/gallery/mono-one-dark.png" width="725">
+<img src="images/gallery/mono-one-light.png" width="725">
+
+
+
+### [MonoSpatial](fonts/mono-spatial)
+
+[ [License](fonts/mono-spatial/license.txt) ]
+
+<img src="images/gallery/mono-spatial-STP.png" width="725">
+<img src="images/gallery/mono-spatial-STPC.png" width="725">
+<img src="images/gallery/mono-spatial-dark.png" width="725">
+<img src="images/gallery/mono-spatial-light.png" width="725">
+
+
+
+### [monofur](fonts/monofur)
+
+[ [License](fonts/monofur/license.txt) ]
+
+<img src="images/gallery/monofur-STP.png" width="725">
+<img src="images/gallery/monofur-STPC.png" width="725">
+<img src="images/gallery/monofur-dark.png" width="725">
+<img src="images/gallery/monofur-light.png" width="725">
+
+
+
+### [Monoid](fonts/monoid)
+
+[ [License](fonts/monoid/license.txt) ]
+
+<img src="images/gallery/monoid-STP.png" width="725">
+<img src="images/gallery/monoid-STPC.png" width="725">
+<img src="images/gallery/monoid-dark.png" width="725">
+<img src="images/gallery/monoid-light.png" width="725">
+
 
 
 ### [Monospace](fonts/monospace)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/monospace/OFL.txt) ]
+[ [License](fonts/monospace/license.txt) ]
 
-![Monospace](images/monospace-TP.png)
-![Monospace](images/monospace-TPC.png)
-![Monospace](images/monospace.png)
-
-
-### [Monospace Typewriter](fonts/monospace-typewriter)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/monospace-typewriter/license.txt) ]
-
-![Monospace Typewriter](images/monospace-typewriter-TP.png)
-![Monospace Typewriter](images/monospace-typewriter-TPC.png)
-![Monospace Typewriter](images/monospace-typewriter.png)
+<img src="images/gallery/monospace-STP.png" width="725">
+<img src="images/gallery/monospace-STPC.png" width="725">
+<img src="images/gallery/monospace-dark.png" width="725">
+<img src="images/gallery/monospace-light.png" width="725">
 
 
-### [Mono Spatial](fonts/mono-spatial)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/mono-spatial/source.txt) ]
+### [MonospaceTypewriter](fonts/monospace-typewriter)
 
-![Mono Spatial](images/mono-spatial-TP.png)
-![Mono Spatial](images/mono-spatial-TPC.png)
-![Mono Spatial](images/mono-spatial.png)
+[ [License](fonts/monospace-typewriter/license.txt) ]
 
-
-### [Monte Carlo](fonts/monte-carlo)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/monte-carlo/license.txt) ]
-
-![Monte Carlo](images/monte-carlo-TP.png)
-![Monte Carlo](images/monte-carlo-TPC.png)
-![Monte Carlo](images/monte-carlo.png)
+<img src="images/gallery/monospace-typewriter-STP.png" width="725">
+<img src="images/gallery/monospace-typewriter-STPC.png" width="725">
+<img src="images/gallery/monospace-typewriter-dark.png" width="725">
+<img src="images/gallery/monospace-typewriter-light.png" width="725">
 
 
-### [Nanum Gothic Coding](fonts/nanum-gothic-coding)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/nanum-gothic-coding/license.txt) ]
+### [M+ 1m](fonts/mplus1m)
 
-![Nanum Gothic Coding](images/nanum-gothic-coding-TP.png)
-![Nanum Gothic Coding](images/nanum-gothic-coding-TPC.png)
-![Nanum Gothic Coding](images/nanum-gothic-coding.png)
+[ [License](fonts/mplus1m/license.txt) ]
+
+<img src="images/gallery/mplus1m-STP.png" width="725">
+<img src="images/gallery/mplus1m-STPC.png" width="725">
+<img src="images/gallery/mplus1m-dark.png" width="725">
+<img src="images/gallery/mplus1m-light.png" width="725">
 
 
-### [Not Courier Sans](fonts/not-courier-sans)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/not-courier-sans/license.txt) ]
+### [M+ 1mn](fonts/mplus1mn)
 
-![Not Courier Sans](images/not-courier-sans-TP.png)
-![Not Courier Sans](images/not-courier-sans-TPC.png)
-![Not Courier Sans](images/not-courier-sans.png)
+[ [License](fonts/mplus1mn/license.txt) ]
+
+<img src="images/gallery/mplus1mn-STP.png" width="725">
+<img src="images/gallery/mplus1mn-STPC.png" width="725">
+<img src="images/gallery/mplus1mn-dark.png" width="725">
+<img src="images/gallery/mplus1mn-light.png" width="725">
+
+
+
+### [M+ 2m](fonts/mplus2m)
+
+[ [License](fonts/mplus2m/license.txt) ]
+
+<img src="images/gallery/mplus2m-STP.png" width="725">
+<img src="images/gallery/mplus2m-STPC.png" width="725">
+<img src="images/gallery/mplus2m-dark.png" width="725">
+<img src="images/gallery/mplus2m-light.png" width="725">
+
+
+
+### [Nimbus Mono](fonts/nimbus-mono)
+
+[ [License](fonts/nimbus-mono/license.txt) ]
+
+<img src="images/gallery/nimbus-mono-STP.png" width="725">
+<img src="images/gallery/nimbus-mono-STPC.png" width="725">
+<img src="images/gallery/nimbus-mono-dark.png" width="725">
+<img src="images/gallery/nimbus-mono-light.png" width="725">
+
+
+
+### [NotCourierSans](fonts/not-courier-sans)
+
+[ [License](fonts/not-courier-sans/license.txt) ]
+
+<img src="images/gallery/not-courier-sans-STP.png" width="725">
+<img src="images/gallery/not-courier-sans-STPC.png" width="725">
+<img src="images/gallery/not-courier-sans-dark.png" width="725">
+<img src="images/gallery/not-courier-sans-light.png" width="725">
+
 
 
 ### [Office Code Pro](fonts/office-code-pro)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/office-code-pro/LICENSE.txt) ]
+[ [License](fonts/office-code-pro/license.txt) ]
 
-![Office Code Pro](images/office-code-pro-TP.png)
-![Office Code Pro](images/office-code-pro-TPC.png)
-![Office Code Pro](images/office-code-pro.png)
+<img src="images/gallery/office-code-pro-STP.png" width="725">
+<img src="images/gallery/office-code-pro-STPC.png" width="725">
+<img src="images/gallery/office-code-pro-dark.png" width="725">
+<img src="images/gallery/office-code-pro-light.png" width="725">
+
 
 
 ### [Oxygen Mono](fonts/oxygen-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/oxygen-mono/SIL%20Open%20Font%20License.txt) ]
+[ [License](fonts/oxygen-mono/license.txt) ]
 
-![Oxygen Mono](images/oxygen-mono-TP.png)
-![Oxygen Mono](images/oxygen-mono-TPC.png)
-![Oxygen Mono](images/oxygen-mono.png)
-
-
-### [Panic Sans Mono](fonts/panic-sans-mono)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/panic-sans-mono/license.txt) ]
-
-![Panic Sans Mono](images/panic-sans-mono-TP.png)
-![Panic Sans Mono](images/panic-sans-mono-TPC.png)
-![Panic Sans Mono](images/panic-sans-mono.png)
+<img src="images/gallery/oxygen-mono-STP.png" width="725">
+<img src="images/gallery/oxygen-mono-STPC.png" width="725">
+<img src="images/gallery/oxygen-mono-dark.png" width="725">
+<img src="images/gallery/oxygen-mono-light.png" width="725">
 
 
-### [PixelCarnage Mono](fonts/pixel-carnage)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/pixel-carnage/license.txt) ]
+### [Panic Sans](fonts/panic-sans)
 
-![PixelCarnage Mono](images/pixel-carnage-noaa-TP.png)
-![PixelCarnage Mono](images/pixel-carnage-noaa-TPC.png)
-![PixelCarnage Mono](images/pixel-carnage-noaa.png)
+[ [License](fonts/panic-sans/license.txt) ]
+
+<img src="images/gallery/panic-sans-STP.png" width="725">
+<img src="images/gallery/panic-sans-STPC.png" width="725">
+<img src="images/gallery/panic-sans-dark.png" width="725">
+<img src="images/gallery/panic-sans-light.png" width="725">
+
+
+
+### [Pointfree](fonts/pointfree)
+
+[ [License](fonts/pointfree/license.txt) ]
+
+<img src="images/gallery/pointfree-STP.png" width="725">
+<img src="images/gallery/pointfree-STPC.png" width="725">
+<img src="images/gallery/pointfree-dark.png" width="725">
+<img src="images/gallery/pointfree-light.png" width="725">
+
 
 
 ### [ProFontWindows](fonts/pro-font-windows)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/pro-font-windows/license.txt) ]
+[ [License](fonts/pro-font-windows/license.txt) ]
 
-![Pro Font Windows](images/pro-font-windows-TP.png)
-![Pro Font Windows](images/pro-font-windows-TPC.png)
-![Pro Font Windows](images/pro-font-windows.png)
+<img src="images/gallery/pro-font-windows-STP.png" width="725">
+<img src="images/gallery/pro-font-windows-STPC.png" width="725">
+<img src="images/gallery/pro-font-windows-dark.png" width="725">
+<img src="images/gallery/pro-font-windows-light.png" width="725">
 
-
-### [Proggy Clean](fonts/proggy-clean)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/proggy-clean/Licence.txt) ]
-
-![Proggy Clean](images/proggy-clean-noaa-TP.png)
-![Proggy Clean](images/proggy-clean-noaa-TPC.png)
-![Proggy Clean](images/proggy-clean-noaa.png)
-
-
-### [Proggy Small](fonts/proggy-small)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/proggy-small/Licence.txt) ]
-
-![Proggy Small](images/proggy-small-noaa-TP.png)
-![Proggy Small](images/proggy-small-noaa-TPC.png)
-![Proggy Small](images/proggy-small-noaa.png)
-
-
-### [Proggy Square](fonts/proggy-square)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/proggy-square/Licence.txt) ]
-
-![Proggy Square](images/proggy-square-noaa-TP.png)
-![Proggy Square](images/proggy-square-noaa-TPC.png)
-![Proggy Square](images/proggy-square-noaa.png)
-
-
-### [Proggy Tiny](fonts/proggy-tiny)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/proggy-tiny/Licence.txt) ]
-
-![Proggy Tiny](images/proggy-tiny-noaa-TP.png)
-![Proggy Tiny](images/proggy-tiny-noaa-TPC.png)
-![Proggy Tiny](images/proggy-tiny-noaa.png)
 
 
 ### [PT Mono](fonts/pt-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/pt-mono/license.txt) ]
+[ [License](fonts/pt-mono/license.txt) ]
 
-![PT Mono](images/pt-mono-TP.png)
-![PT Mono](images/pt-mono-TPC.png)
-![PT Mono](images/pt-mono.png)
+<img src="images/gallery/pt-mono-STP.png" width="725">
+<img src="images/gallery/pt-mono-STPC.png" width="725">
+<img src="images/gallery/pt-mono-dark.png" width="725">
+<img src="images/gallery/pt-mono-light.png" width="725">
+
 
 
 ### [Roboto Mono](fonts/roboto-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/roboto-mono/LICENSE.txt) ]
+[ [License](fonts/roboto-mono/license.txt) ]
 
-![Roboto Mono](images/roboto-mono-TP.png)
-![Roboto Mono](images/roboto-mono-TPC.png)
-![Roboto Mono](images/roboto-mono.png)
-
-
-### [sax Mono](fonts/sax-mono)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/sax-mono/license.txt) ]
-
-![sax Mono](images/sax-mono-TP.png)
-![sax Mono](images/sax-mono-TPC.png)
-![sax Mono](images/sax-mono.png)
+<img src="images/gallery/roboto-mono-STP.png" width="725">
+<img src="images/gallery/roboto-mono-STPC.png" width="725">
+<img src="images/gallery/roboto-mono-dark.png" width="725">
+<img src="images/gallery/roboto-mono-light.png" width="725">
 
 
-### [Share-TechMonoTrue](fonts/share-tech-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/share-tech-mono/license.txt) ]
+### [saxMono](fonts/sax-mono)
 
-![Share Tech Mono](images/share-tech-mono-TP.png)
-![Share Tech Mono](images/share-tech-mono-TPC.png)
-![Share Tech Mono](images/share-tech-mono.png)
+[ [License](fonts/sax-mono/license.txt) ]
+
+<img src="images/gallery/sax-mono-STP.png" width="725">
+<img src="images/gallery/sax-mono-STPC.png" width="725">
+<img src="images/gallery/sax-mono-dark.png" width="725">
+<img src="images/gallery/sax-mono-light.png" width="725">
 
 
-### [Small Type Writing](fonts/small-type-writing)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/small-type-writing/license.txt) ]
+### [Share-TechMonoTrue](fonts/sharetech-mono)
 
-![Small Type Writing](images/small-type-writing-TP.png)
-![Small Type Writing](images/small-type-writing-TPC.png)
-![Small Type Writing](images/small-type-writing.png)
+[ [License](fonts/sharetech-mono/license.txt) ]
+
+<img src="images/gallery/sharetech-mono-STP.png" width="725">
+<img src="images/gallery/sharetech-mono-STPC.png" width="725">
+<img src="images/gallery/sharetech-mono-dark.png" width="725">
+<img src="images/gallery/sharetech-mono-light.png" width="725">
+
+
+
+### [SmallTypeWriting](fonts/small-type-writing)
+
+[ [License](fonts/small-type-writing/license.txt) ]
+
+<img src="images/gallery/small-type-writing-STP.png" width="725">
+<img src="images/gallery/small-type-writing-STPC.png" width="725">
+<img src="images/gallery/small-type-writing-dark.png" width="725">
+<img src="images/gallery/small-type-writing-light.png" width="725">
+
 
 
 ### [Source Code Pro](fonts/source-code-pro)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/source-code-pro/SIL%20Open%20Font%20License.txt) ]
+[ [License](fonts/source-code-pro/license.txt) ]
 
-![Source Code Pro](images/source-code-pro-TP.png)
-![Source Code Pro](images/source-code-pro-TPC.png)
-![Source Code Pro](images/source-code-pro.png)
+<img src="images/gallery/source-code-pro-STP.png" width="725">
+<img src="images/gallery/source-code-pro-STPC.png" width="725">
+<img src="images/gallery/source-code-pro-dark.png" width="725">
+<img src="images/gallery/source-code-pro-light.png" width="725">
+
 
 
 ### [Sudo](fonts/sudo)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/sudo/license.txt) ]
+[ [License](fonts/sudo/license.txt) ]
 
-![Sudo](images/sudo-TP.png)
-![Sudo](images/sudo-TPC.png)
-![Sudo](images/sudo.png)
+<img src="images/gallery/sudo-STP.png" width="725">
+<img src="images/gallery/sudo-STPC.png" width="725">
+<img src="images/gallery/sudo-dark.png" width="725">
+<img src="images/gallery/sudo-light.png" width="725">
 
-
-### [SV Basic Manual](fonts/sv-basic-manual)
-
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/sv-basic-manual/source.txt) ]
-
-![SV Basic Manual](images/sv-basic-manual-TP.png)
-![SV Basic Manual](images/sv-basic-manual-TPC.png)
-![SV Basic Manual](images/sv-basic-manual.png)
 
 
 ### [Terminus](fonts/terminus)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/terminus/license.txt) ]
+[ [License](fonts/terminus/license.txt) ]
 
-![Terminus](images/terminus-TP.png)
-![Terminus](images/terminus-TPC.png)
-![Terminus](images/terminus.png)
+<img src="images/gallery/terminus-STP.png" width="725">
+<img src="images/gallery/terminus-STPC.png" width="725">
+<img src="images/gallery/terminus-dark.png" width="725">
+<img src="images/gallery/terminus-light.png" width="725">
+
 
 
 ### [TeX Gyre Cursor](fonts/tex-gyre-cursor)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/tex-gyre-cursor/GUST%20e-foundry%20License.txt) ]
+[ [License](fonts/tex-gyre-cursor/license.txt) ]
 
-![TeX Gyre Cursor](images/tex-gyre-cursor-TP.png)
-![TeX Gyre Cursor](images/tex-gyre-cursor-TPC.png)
-![TeX Gyre Cursor](images/tex-gyre-cursor.png)
+<img src="images/gallery/tex-gyre-cursor-STP.png" width="725">
+<img src="images/gallery/tex-gyre-cursor-STPC.png" width="725">
+<img src="images/gallery/tex-gyre-cursor-dark.png" width="725">
+<img src="images/gallery/tex-gyre-cursor-light.png" width="725">
+
 
 
 ### [Ubuntu Mono](fonts/ubuntu-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/ubuntu-mono/UBUNTU%20FONT%20LICENCE.txt) ]
+[ [License](fonts/ubuntu-mono/license.txt) ]
 
-![Ubuntu Mono](images/ubuntu-mono-TP.png)
-![Ubuntu Mono](images/ubuntu-mono-TPC.png)
-![Ubuntu Mono](images/ubuntu-mono.png)
+<img src="images/gallery/ubuntu-mono-STP.png" width="725">
+<img src="images/gallery/ubuntu-mono-STPC.png" width="725">
+<img src="images/gallery/ubuntu-mono-dark.png" width="725">
+<img src="images/gallery/ubuntu-mono-light.png" width="725">
+
 
 
 ### [Verily Serif Mono](fonts/verily-serif-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/verily-serif-mono/Verily%20Serif%20Mono%20%28Stephen%20G.%20Hartke%29.txt) ]
+[ [License](fonts/verily-serif-mono/license.txt) ]
 
-![Verily Serif Mono](images/verily-serif-mono-TP.png)
-![Verily Serif Mono](images/verily-serif-mono-TPC.png)
-![Verily Serif Mono](images/verily-serif-mono.png)
+<img src="images/gallery/verily-serif-mono-STP.png" width="725">
+<img src="images/gallery/verily-serif-mono-STPC.png" width="725">
+<img src="images/gallery/verily-serif-mono-dark.png" width="725">
+<img src="images/gallery/verily-serif-mono-light.png" width="725">
 
 
-### [Whois Mono](fonts/whois-mono)
 
-[ [License](https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/whois-mono/License.txt) ]
+### [Whois](fonts/whois-mono)
 
-![Whois Mono](images/whois-mono-TP.png)
-![Whois Mono](images/whois-mono-TPC.png)
-![Whois Mono](images/whois-mono.png)
+[ [License](fonts/whois-mono/license.txt) ]
+
+<img src="images/gallery/whois-mono-STP.png" width="725">
+<img src="images/gallery/whois-mono-STPC.png" width="725">
+<img src="images/gallery/whois-mono-dark.png" width="725">
+<img src="images/gallery/whois-mono-light.png" width="725">
+
+
 
 ---
 
-§ A proud member of the [Awesome Syndicate](https://github.com/sindresorhus/awesome)
+§ The End
